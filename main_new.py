@@ -9,9 +9,40 @@ bot = telebot.TeleBot('5022795028:AAExr3GHbc-RohYgPtOs6jBYDfiFsVnYv8Y')
 
 '''
 send message
+    text
+    video
+    image
+    the same content that is sent by user (echoer)
+    audio
+    file
+    sticker
+    with timer
 reply to message
+    reply with text
+    with photo, video
+    with audio
+    with file
+forward message
+handler filters
+    filter by content type
+        text
+        video
+        photo
+    filter by chat type
+        private chat
+        private group
+    filter by function
+    and / or filters
+style messages with HTML or Markdown
+    how to make a new line
+    how to reply to a message and style it
 edit message
+    text
+    photo, video, file
 delete message
+    sender message
+    send a message from bot and delete it right away
+    any other message
 inline keyboard
 reply keyboard
 buttons:
@@ -20,7 +51,14 @@ buttons:
     switch
 callback
 next_step_handler
+    get user review about something
 utils (message breaker, smart message breaker)
+get user data
+    review
+    phone
+quiz:
+    max row width in reply keyboard
+    max row width in inline keyboard
 '''
 
 bot.send_message('-1001921739828', 'Здравствуйте, меня зовут Administrator, я пришёл служить Вам.')
